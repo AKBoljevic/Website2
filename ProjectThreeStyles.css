@@ -1,0 +1,294 @@
+/*=== Diverso Purple ===
+--background-color:#2F1418  rgba(47,20,24,1);--
+--background-color:#f1f0ee ===
+--Dust Storm: #d8cbc7
+--Granite Gray: #626868
+--Spanish Gray: #939196*/
+*
+{
+  margin:0;
+  padding:0;
+}
+
+/*=== HEADER ==*/
+header{
+  /*background-color:#F1F0EE;*/
+  background-image: linear-gradient(#f1f0ee, rgba(47,20,24,1) );
+  font-size:1em;
+  height:300px;
+  border-bottom: 10px solid #2f1418;
+}
+h1
+{
+  text-transform: uppercase;
+  font-size: 1em;
+  letter-spacing:.2em;
+  width:100px;
+}
+
+/* === Dropdown Menu ===*/
+button
+{
+  opacity:.7;
+  color:rgba(47,20,24,1);
+  background-color:#F1F0EE;
+
+  font-size: 1em;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown
+{
+  position: absolute;
+  display: inline-block;
+  top:0;
+  left:110px;
+}
+
+.dropdown-content
+{
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px #2F1418;
+  z-index: 1;
+}
+
+.dropdown-content a
+{
+  color: #2F1418;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  background-color:
+}
+
+.dropdown a:hover
+{
+  background-color: rgba(47,20,24,.5);
+  color:#F1F0EE;
+}
+
+div.dropdown:hover > .dropdown-content {
+  background-color: rgba(47,20,24,.5);
+  display: block;
+}
+
+/*=== TOGETHER === */
+.everything
+{
+  display:flex;
+  border-bottom: 5px solid rgba(47,20,24,1);
+
+}
+.Img_Left, .Mobilario_Purple, .Img_Right
+{
+  flex-direction:row;
+  margin-bottom:-4px;
+}
+
+.Img_Left :hover, .Mobilario_Purple:hover, .Img_Right:hover
+{
+    box-shadow: 0px 8px 16px 0px #F1F0EE;
+}
+
+
+/* === NO BOX SHADOW FOR NINETYDEG === */
+.Ninetydeg p
+{
+  box-shadow: 0px 0px 0px 0px rgba(47,20,24,1);
+}
+
+/*== Styles For Mobilario ==*/
+.Mobilario_Purple
+{
+  background-color: rgba(47,20,24,1);
+  color:#fff;
+  width:32%;
+  height:500px;
+  /* left:-105px;
+  top:-231px;*/
+
+}
+.Mobilario_Purple h3
+{
+  font-weight: bolder;
+  color:#fff;
+  background-color:rgba(47,20,24,1);
+  font-size:2.5em;
+}
+.Ninetydeg
+{
+  font-size:16px;
+  writing-mode:vertical-rl;
+}
+
+/* ==== Third ===*/
+.third
+{
+  color:#f1f0ee;
+  padding:3em 5em;
+  /*font-size: 1.2em;*/
+  background-color: rgba(47,20,24,1);
+}
+
+.third h2
+{
+  text-align:center;
+}
+.space1
+{
+  padding-top: 30px;
+  margin-left:40px;
+}
+.space2
+{
+  margin-top: 30px;
+  padding-bottom: 30px;
+  margin-left:2em;
+
+}
+.space1, .space2
+{
+  width:45%;
+  display:inline-block;
+}
+
+/* === Picture Row - No Space === */
+/*Height first pic row - width: 750 height: 500*/
+.Picture_Row
+{
+  /*background-color:rgba(47,20,24,1);*/
+  background-image: linear-gradient(rgba(47,20,24,1), #939196);
+  display:flex;
+}
+
+.Consectetur span
+{
+  color:#939196;
+  font-size: 1.7em;
+  position:relative;
+  left:20px;
+}
+.Consectetur p
+{
+  margin-top: 40px;
+  position:relative;
+  left:-120px;
+  top:-40px;
+  font-size:1.1em;
+
+  color:#939196;
+  writing-mode: vertical-rl;
+  padding: 0 8em;
+}
+}
+.First, .second, p
+{
+  flex-direction: row;
+}
+
+/*===FOURTH ===*/
+.fourth
+{
+  background-color:#939196;
+  display:flex;
+}
+.fourth>img
+{
+  flex-direction: row;
+}
+.fourth>#place
+{
+  color:rgba(47,20,24,1);
+}
+.fourth>#place>span
+{
+  padding:2em;
+  font-size:1.7em;
+  position:relative;
+  left:-40px;
+}
+.fourth>#place>p
+{
+  writing-mode:vertical-rl;
+  position:relative;
+  font-size:1.1em;
+  padding-bottom:1em;
+  top:0px;
+  right:-13px;
+}
+
+/* === FIFTH === */
+div#place2
+{
+  width:80.4em;
+  background-image: linear-gradient(#939196, rgba(47,20,24,1));
+  text-align:center;
+  padding:3em 2em;
+  color: #2F1418;
+}
+div>#place2>span
+{
+  font-size:1.7em;
+}
+
+/* === SIXTH ===*/
+.sixth
+{
+  background-color: rgba(47,20,24,1);
+  display:flex;
+}
+
+.sixth>img
+{
+  flex-direction: row;
+}
+div>#Ut
+{
+  padding:.0em 1em;
+  color:#939196;
+}
+div>#Ut>span
+{
+  font-size: 1.5em;
+  position: relative;
+  left:-40px;
+  margin:1em;
+}
+#Ut>p
+{
+  writing-mode:vertical-rl;
+  margin-right:2em;
+  position:relative;
+  left:-15px;
+  top:0px;
+
+}
+
+.background
+{
+  background-image: linear-gradient(rgba(47,20,24,1), #939196);
+  padding: 5em 0;
+}
+.background2
+{
+  font-size:1.5em;
+  color:rgba(47,20,24,1);
+  padding: 1.5em;
+  margin: 0em 8em;
+  background-color: #939196;
+  box-shadow: 2px 5px 10px rgba(47,20,24,1);
+}
+
+footer
+{
+  height: 3em;
+  color:rgba(47,20,24,1) ;
+  font-size:2em;
+  text-align:center;
+  padding-top:2em;
+  background-image: linear-gradient(#939196 , #F1F0EE);
+  /*background-image: linear-gradient(#939196,rgba(47,20,24,1));*/
+}
